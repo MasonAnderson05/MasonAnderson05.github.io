@@ -3,7 +3,6 @@ document.onkeydown = blog;
 function blog(e){
   if(e.keyCode===37){
     left();
-  }
   if(e.keyCode===38){
     up();
   }
@@ -60,6 +59,11 @@ function newc(){
   update();
 }
 function load(){
+  ind=1;
+  while(ind<17){
+    document.getElementById(ind).innerHTML = "&#8203";
+    ind+=1;
+  }
   newc();
   newc();
   update();
