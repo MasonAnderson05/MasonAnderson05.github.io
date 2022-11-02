@@ -1,0 +1,52 @@
+/* The text in green contains comments to help you. */ 
+
+body {
+  /* You can edit the background color here: */
+  background: #FF0101;
+  /* CSS doesn't know all color names, but it knows a lot of them.
+  Try one or more of these:
+  - orange
+  - palegoldenrod
+  - pink
+  - firebrick */
+}
+img {
+  /* you can change the default inage size here:*/
+  width: 80%;
+  /* Try these:
+  - 50%
+  - 500px
+  - auto*/
+}
+
+div {
+  /* This is padding added to each major container on the page.
+  It provides a border of blank space around the page content. */
+  padding: 1em;
+}
+
+code {
+  font-weight: bold;
+}
+
+/* This is a custom class. It's what makes the <h1> text in index.html centered*/
+.centered {
+  text-align: center;
+}
+table {
+  width: 100%;
+  height: 100%;
+}
+td {
+  width: 5em;
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+}
+tr {
+  height: 6em;
+}
+.green {
+  color: green;
+}
+
